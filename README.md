@@ -14,7 +14,7 @@ This code was refactored to provide clarity and visual ease for current and futu
 
 - Duplicate rulesets were merged to shorted the length of code without changing the user interface.
 - Comments were added to provide a brief description of merged elements.
-- Classes that were changed to ids had their respective ruleset selectors updated to reflect properly.
+- Classes that were changed to ids in index.html had their respective ruleset selectors updated to reflect properly.
 
 ## Installation and Access
 
