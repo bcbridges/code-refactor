@@ -8,6 +8,8 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Class of 'header' was removed from the index.html file and replaced with the semantic 'header' element. To compensate for changes, all rulesets for the class of header were changed to an element selector for header. */
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -87,6 +89,8 @@ p {
   background-color: #2589bd;
 }
 
+/* The following rulsets, excluding the footer elements, were merged to reduce amount of code while maintaing the same styling. No change to styling properties, but suggest to change fixed units to more responsive units such as percents, em, rem, etc.*/
+
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -109,9 +113,11 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+/* The following three ids were originally classes in the index.html file to fix link features. These rulesets were updated to reflect those changes. */
+
+#search-engine-optimization,
+#online-reputation-management,
+#social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -120,15 +126,15 @@ p {
   color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+#search-engine-optimization img,
+#online-reputation-management img,
+#social-media-marketing img {
   max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+#search-engine-optimization h2,
+#online-reputation-management h2,
+#social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
